@@ -18,7 +18,7 @@ newListForm.addEventListener("submit", (e) => {
 });
 
 function render() {
-  clearElement(listContainer);
+  clearElement();
   lists.forEach((it) => {
     const itens = document.createElement("li");
     itens.classList.add("item");
